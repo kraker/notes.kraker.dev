@@ -4,3 +4,6 @@
 [submodule "content/wiki"]
 	path = content/wiki
 	url = /home/akraker/wiki/
+[submodule "themes/zdoc"]
+	path = themes/zdoc
+	url = https://github.com/zzossig/hugo-theme-zzo.git

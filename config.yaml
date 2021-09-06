@@ -1,0 +1,10 @@
+baseURL: "http://notes.alexkraker.net/"
+languageCode: "en-us"
+title: "Alex's Zettelkasten"
+theme: "book"
+
+uglyURLs: true
+
+params:
+  bookTheme: "auto"
+  bookComments: false

@@ -1,19 +1,23 @@
 baseURL: "http://notes.alexkraker.net/"
 languageCode: "en-us"
 title: "Alex's Zettelkasten"
-theme: "book"
+#theme: "book"
+theme: "hugo-theme-learn"
+
+outputs:
+  home: [ "HTML", "RSS", "JSON" ]
 
 uglyURLs: true
 
-params:
-  bookTheme: "auto"
-  bookComments: false
-
-minify:
-  disableCSS: false
-  disableHTML: false
-  disableJS: false
-  disableJSON: false
-  disableSVG: false
-  disableXML: false
-  minifyOutput: false
+#params:
+#  bookTheme: "auto"
+#  bookComments: false
+#
+#minify:
+#  disableCSS: false
+#  disableHTML: false
+#  disableJS: false
+#  disableJSON: false
+#  disableSVG: false
+#  disableXML: false
+#  minifyOutput: false

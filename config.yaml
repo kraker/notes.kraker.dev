@@ -2,11 +2,12 @@ baseURL: "http://notes.alexkraker.net/"
 languageCode: "en-us"
 title: "Alex's Zettelkasten"
 theme: "book"
-#theme: "hugo-theme-learn"
+
 
 #outputs:
 #  home: [ "HTML", "RSS", "JSON" ]
 
+contentDir: second-brain
 uglyURLs: true
 enableGitInfo: true
 

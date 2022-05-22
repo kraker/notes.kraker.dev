@@ -13,7 +13,7 @@ for details on how to manage submodules.
 
 ## Netlify
 
-This site is hosted on Netlify at https://notes.kraker.dev
+This site is hosted on Netlify at [notes.kraker.dev](https://notes.kraker.dev).
 
 See [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) 
 for details on how to host your hugo project.

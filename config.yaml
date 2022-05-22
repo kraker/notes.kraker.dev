@@ -1,4 +1,4 @@
-baseURL: "http://notes.alexkraker.net/"
+baseURL: "https://notes.kraker.dev/"
 languageCode: "en-us"
 title: "Alex's Zettelkasten"
 theme: "book"

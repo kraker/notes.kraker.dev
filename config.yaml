@@ -8,7 +8,7 @@ theme: "book"
 #  home: [ "HTML", "RSS", "JSON" ]
 
 contentDir: second-brain
-uglyURLs: true
+uglyRLs: true
 enableGitInfo: true
 
 params:

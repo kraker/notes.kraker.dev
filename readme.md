@@ -1,6 +1,6 @@
 # notes.kraker.dev
 
-A simple hugo website to host my Zettelkasten (AKA "Second Brain").
+A simple [hugo](https://gohugo.io/) website to host my notes. 
 
 ## Git Submodules
 

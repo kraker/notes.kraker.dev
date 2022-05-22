@@ -1,6 +1,6 @@
 baseURL: "https://notes.kraker.dev/"
-languageCode: "en-us"
-title: "Alex's Zettelkasten (AKA "second brain")"
+#languageCode: "en-us"
+title: "Alex's Second Brain (AKA Zettelkasten)"
 theme: "book"
 
 

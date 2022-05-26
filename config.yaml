@@ -3,16 +3,11 @@
 
 baseURL: "https://notes.kraker.dev/"
 languageCode: "en-us"
-title: "Alex's Second Brain (AKA Zettelkasten)"
+title: "Alex's Second Brain"
 theme: "book"
 
-
-#outputs:
-#  home: [ "HTML", "RSS", "JSON" ]
-
 contentDir: second-brain
-uglyRLs: true
-enableGitInfo: true
+uglyurls: true
 
 params:
   BookTheme: "auto"

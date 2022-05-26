@@ -1,5 +1,8 @@
+---
+# Hugo notes.kraker.dev site config
+
 baseURL: "https://notes.kraker.dev/"
-#languageCode: "en-us"
+languageCode: "en-us"
 title: "Alex's Second Brain (AKA Zettelkasten)"
 theme: "book"
 
@@ -12,14 +15,6 @@ uglyRLs: true
 enableGitInfo: true
 
 params:
-  bookTheme: "auto"
-  bookComments: false
-#
-#minify:
-#  disableCSS: false
-#  disableHTML: false
-#  disableJS: false
-#  disableJSON: false
-#  disableSVG: false
-#  disableXML: false
-#  minifyOutput: false
+  BookTheme: "auto"
+  BookComments: false
+  BookToC: true

@@ -13,4 +13,4 @@ params:
   BookTheme: "auto"
   BookComments: false
   BookToC: true
-  #BookSection: '*'
+  BookSection: '*'

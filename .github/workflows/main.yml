@@ -1,2 +1,35 @@
 ---
 # Update second-brain submodule
+
+name: 'Update second-brain submodule'
+on:
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  sync:
+    name: 'Update second-brain submodule'
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.CI_TOKEN }}
+          submodules: true
+
+      - name: Sync with second-brain
+        run: git submodule update --remote second-brain
+
+      - name: Commit update
+        env:
+          GIT_AUTHOR_NAME: 'CI Bot'
+          GIT_AUTHOR_EMAIL: 'alex@alexkraker.com'
+        run: >
+          git commit -am "Auto updated second-brain submodule"
+          && git push || echo "No changes to commit"
+

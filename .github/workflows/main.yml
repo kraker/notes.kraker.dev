@@ -32,6 +32,7 @@ jobs:
           GIT_AUTHOR_EMAIL: 'alex@alexkraker.com'
           GIT_COMMITTER_NAME: 'CI Bot'
           GIT_COMMITTER_EMAIL: 'alex@alexkraker.com'
-        run: |
-          git commit -am "Auto updated second-brain submodule" && git push
+        run: >
+          git commit -am "Auto updated second-brain submodule" 
+          && git push || :
 

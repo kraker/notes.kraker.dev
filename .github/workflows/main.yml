@@ -25,8 +25,12 @@ jobs:
       - name: Sync with second-brain
         run: git submodule update --remote second-brain
 
+      - name: Configure committer 
+
       - name: Commit update
         env:
+          GIT_AUTHOR_NAME: 'CI BOT'
+          GIT_AUTHOR_EMAIL: 'alex@alexkraker.com'
           GIT_COMMITTER_NAME: 'CI Bot'
           GIT_COMMITTER_EMAIL: 'alex@alexkraker.com'
         run: >

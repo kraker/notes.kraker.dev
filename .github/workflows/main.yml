@@ -26,8 +26,6 @@ jobs:
       - name: Sync with second-brain
         run: git submodule update --remote second-brain
 
-      - name: Configure committer 
-
       - name: Commit update
         env:
           GIT_AUTHOR_NAME: 'CI BOT'

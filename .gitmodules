@@ -5,3 +5,4 @@
 [submodule "second-brain"]
 	path = second-brain
 	url = https://github.com/kraker/second-brain.git
+	branch = main

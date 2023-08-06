@@ -23,7 +23,7 @@ Start Hugo server:
 
 ```bash
 cd notes.kraker.dev
-hugo server -D
+hugo server
 ```
 
 ## License

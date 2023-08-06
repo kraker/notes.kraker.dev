@@ -1,5 +1,6 @@
 # notes.kraker.dev README
 
+[![Update second-brain submodule](https://github.com/kraker/notes.kraker.dev/actions/workflows/main.yml/badge.svg)](https://github.com/kraker/notes.kraker.dev/actions/workflows/main.yml) 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7fccd6b3-7840-40ec-b880-7c8e5c897737/deploy-status)](https://app.netlify.com/sites/chic-druid-14e053/deploys)
 
 A simple [Hugo](https://gohugo.io/) website to host my

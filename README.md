@@ -4,6 +4,8 @@
 
 A simple [Hugo](https://gohugo.io/) website to host my notes. Uses the [Hugo Book](https://github.com/alex-shpak/hugo-book) theme.
 
+* [notes.kraker.dev](https://notes.kraker.dev)
+
 ## Git Submodules
 
 This site uses git submodules to pull in dependencies for the theme and content.

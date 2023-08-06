@@ -2,22 +2,30 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7fccd6b3-7840-40ec-b880-7c8e5c897737/deploy-status)](https://app.netlify.com/sites/chic-druid-14e053/deploys)
 
-A simple [Hugo](https://gohugo.io/) website to host my notes. Uses the [Hugo Book](https://github.com/alex-shpak/hugo-book) theme.
+A simple [Hugo](https://gohugo.io/) website to host my
+[notes](https://github.com/kraker/second-brain). Uses the
+[Hugo Book](https://github.com/alex-shpak/hugo-book) theme. Hosted for free
+on [Netlify](https://www.netlify.com/).
 
 * [notes.kraker.dev](https://notes.kraker.dev)
 
-## Git Submodules
+## Quickstart
 
-This site uses git submodules to pull in dependencies for the theme and content.
+* [Install Hugo](https://gohugo.io/installation/)
 
-Review the `.gitmodules` file for details.
+Clone repository:
 
-See [Git - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) 
-for details on how to manage submodules.
+```bash
+git clone --recurse-submodules https://github.com/kraker/notes.kraker.dev.git
+```
 
-## Netlify
+Start Hugo server:
 
-This site is hosted on Netlify at [notes.kraker.dev](https://notes.kraker.dev).
+```bash
+cd notes.kraker.dev
+hugo server -D
+```
 
-See [Host on Netlify](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) 
-for details on how to host your hugo project.
+## License
+
+MIT

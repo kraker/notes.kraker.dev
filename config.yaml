@@ -14,3 +14,6 @@ params:
   BookComments: false
   BookToC: true
   BookSection: '*'
+
+ignoreLogs:
+  - warning-goldmark-raw-html

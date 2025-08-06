@@ -35,4 +35,3 @@ jobs:
         run: >
           git commit -am "Auto updated second-brain submodule" 
           && git push || :
-
